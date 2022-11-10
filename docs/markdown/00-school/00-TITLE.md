@@ -1,8 +1,6 @@
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="xxx" -->
+<!-- .slide: class="first-slide" sfeir-level="1" sfeir-techno="architecture" -->
 
-# **Welcome to SFEIR School**
-
-## **XXX 200**
+# **REX sur les architectures Logiciels**
 
 ##==##
 
@@ -10,22 +8,15 @@
 
 <br>
 
-### Wifi available
+### Source
 
 <br>
 
-![sfeir-icons](wifi)<!-- .element: style="--icon-size:300px; --icon-color:var(--light-grey);" -->
+![sfeir-icons](github)<!-- .element: style="--icon-size:300px; --icon-color:var(--light-grey);"  -->
 
 <br>
 
-Credentials
-
-<!-- .element: class="center" -->
-<br>
-
-![sfeir-icons big](user)<!-- .element: style="--icon-color:var(--light-grey);" --> SSID
-
-![sfeir-icons big](lock)<!-- .element: style="--icon-color:var(--light-grey);" --> PWD
+[https://github.com/sfeir-open-source/polytech-microservice](https://github.com/sfeir-open-source/polytech-microservice)<!-- .element: style="color: white" -->
 
 ##==##
 
@@ -37,7 +28,3 @@ Quand est-ce qu'on mange ?<br>
 Tour de table ...
 </p>
 <br><br>
-
-**Feuille de présence (obligatoire)** <!-- .element: class="center" -->
-
-https://bit.ly/sfeir-xxx <!-- .element: class="center" -->
