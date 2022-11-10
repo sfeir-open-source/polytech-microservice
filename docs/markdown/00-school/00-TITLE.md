@@ -20,7 +20,9 @@
 
 ##==##
 
-# Déroulement de la formation
+# Déroulement du cours
+
+<br>
 
 <p class="center">
 C'est quand la pause ?<br>

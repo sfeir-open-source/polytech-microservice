@@ -12,9 +12,9 @@ function casPratique() {
 function rexSlides() {
   return [
     '01-intro/intro.md',
-    '10-conceptions/11-TITLE.md',
-    '20-architectures/21-TITLE.md',
-    '30-conclusion/31-TITLE.md',
+    '10-conceptions/11-conceptions.md',
+    '20-architectures/21-architectures.md',
+    '30-conclusion/31-conclu.md',
   ];
 }
 
