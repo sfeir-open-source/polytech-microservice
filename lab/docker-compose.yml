@@ -1,0 +1,71 @@
+---
+version: "3.8"
+
+networks:
+  micro-network:
+    driver: bridge
+
+services:
+  gateway:
+    image: microservice/gateway
+    build: ./gateway
+    restart: always
+    ports:
+      - 9090:9090
+    links:
+      - register
+      - micro11
+      - micro12
+      - micro2
+    environment:
+      REGISTER_URI: "http://microservice-register:8761/eureka"
+    container_name: microservice-gateway
+    networks:
+      - micro-network
+
+  register:
+    image: microservice/register
+    build: ./register
+    ports:
+      - "0.0.0.0:8761:8761"
+    restart: always
+    container_name: microservice-register
+    networks:
+      - micro-network
+
+
+  micro11:
+    image: microservice/micro1
+    build: ./micro1
+    links:
+      - register
+    environment:
+      REGISTER_URI: "http://microservice-register:8761/eureka"
+    container_name: microservice-micro11
+    networks:
+      - micro-network
+
+  micro12:
+    image: microservice/micro1
+    build: ./micro1
+    links:
+      - register
+    environment:
+      REGISTER_URI: "http://microservice-register:8761/eureka"
+    container_name: microservice-micro12
+    networks:
+      - micro-network
+
+
+  micro2:
+    image: microservice/micro2
+    build: ./micro2
+    links:
+      - register
+    environment:
+      REGISTER_URI: "http://microservice-register:8761/eureka"
+    container_name: microservice-micro2
+    networks:
+      - micro-network
+
+

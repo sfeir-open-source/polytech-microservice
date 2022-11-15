@@ -1,7 +1,7 @@
 {
-  "name": "sfeirschoolxxx",
+  "name": "sfeirschoolpolytech",
   "version": "1.0.0",
-  "description": "Sfeir School XXX with revealJS",
+  "description": "Cours polytech Nantes with revealJS",
   "scripts": {
     "sass": "sass ./scss/slides.scss:./css/slides.css --source-map --watch",
     "sass-once": "sass ./scss/slides.scss:./css/slides.css --source-map",
@@ -12,10 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sfeir-open-source/sfeir-school-template.git"
+    "url": "git+https://github.com/sfeir-open-source/polytech-microservice.git"
   },
   "keywords": [
-    "xxx",
+    "polytech",
+    "microservice",
     "sfeir"
   ],
   "author": "jefbinomed",
@@ -23,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/sfeir-open-source/sfeir-school-template/issues"
   },
-  "homepage": "https://github.com/sfeir-open-source/sfeir-school-template",
+  "homepage": "https://github.com/sfeir-open-source/polytech-microservice",
   "dependencies": {
     "sfeir-school-theme": "^3.0.0"
   },
