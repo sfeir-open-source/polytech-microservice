@@ -18,9 +18,13 @@
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception connu vu en étude
 
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Popularisé au travers de Spring
+
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Logique simple de compréhension
 
-![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception fortement utilisée
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception fortement pratiquée
+
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Le métier peut-être perdu au milieu de l'ensemble
 
 ##==##
 
@@ -38,11 +42,11 @@
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception connu
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Conception peu pratiqué
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception à la mode
+
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Pattern peu pratiqué
 
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Concept peu intuitif au première abord
-
-![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception à la mode
 
 ##==##
 
@@ -58,10 +62,13 @@
 
 # Domain Driven Design (avis)
 
-![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception non connue
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception peu connue
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Conception peu répandue
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> La logique théorique est facilement compréhensible
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Ouvre facilement aux discussions fonctionnelles
+
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> La plus intéressante à mettre en place
+
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Conception peu répandue
