@@ -64,11 +64,20 @@
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Conception peu connue
 
-
-![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> La logique théorique est facilement compréhensible
-
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Ouvre facilement aux discussions fonctionnelles
+
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Evite l'over-ingenierie
+
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Objectif commun entre le business ET les développeurs
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> La plus intéressante à mettre en place
 
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Tests
+
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Conception peu répandue
+
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Peu évolutif
+
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Le métier doit être correctement communiqué et interprété
+
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Coût

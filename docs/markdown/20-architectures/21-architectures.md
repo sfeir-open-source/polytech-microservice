@@ -20,11 +20,15 @@
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Dans le cadre d'un POC
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Effet boîte-noire sur le long terme
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Simplicité
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Non pereine sur le long terme
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Attention à l'effet on verra plus tard
+
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Effet boîte-noire
 
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Complexe à maintenir
+
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Non pereine sur le long terme
 
 ##==##
 
@@ -73,6 +77,8 @@
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Cas spécifique (DevOps, EDI, ...)
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Gestion fine des ressources nécessaires selon chaque étape
+
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Réflexion step-by-step
 
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Gestion d'un "cache" transverse
 
