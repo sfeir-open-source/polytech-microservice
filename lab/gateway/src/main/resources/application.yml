@@ -14,6 +14,8 @@ spring:
           uri: lb://microservice-second
           predicates:
             - Path=/micro2/**
+          filters:
+            - RewritePath=/micro2, /microservice-2
 
 
 server:

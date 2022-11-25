@@ -14,3 +14,15 @@ eureka:
     register-with-eureka: true
   instance:
     prefer-ip-address: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - httptrace
+          - info
+          - health
+  endpoint:
+    httptrace:
+      enabled: true
