@@ -8,7 +8,12 @@ networks:
 services:
   gateway:
     image: microservice/gateway
-    build: ./gateway
+    build:
+      context: ./gateway
+      dockerfile: ../Dockerfile
+      args:
+        - APP=gateway
+        - REVISION
     restart: always
     ports:
       - 9090:9090
@@ -25,7 +30,12 @@ services:
 
   register:
     image: microservice/register
-    build: ./register
+    build:
+      context: ./register
+      dockerfile: ../Dockerfile
+      args:
+        - APP=register
+        - REVISION=${REVISION}
     ports:
       - "0.0.0.0:8761:8761"
     restart: always
@@ -36,7 +46,12 @@ services:
 
   micro11:
     image: microservice/micro1
-    build: ./micro1
+    build:
+      context: ./micro1
+      dockerfile: ../Dockerfile
+      args:
+        - APP=micro1
+        - REVISION=${REVISION}
     links:
       - register
     environment:
@@ -47,7 +62,12 @@ services:
 
   micro12:
     image: microservice/micro1
-    build: ./micro1
+    build:
+      context: ./micro1
+      dockerfile: ../Dockerfile
+      args:
+        - APP=micro1
+        - REVISION=${REVISION}
     links:
       - register
     environment:
@@ -59,7 +79,12 @@ services:
 
   micro2:
     image: microservice/micro2
-    build: ./micro2
+    build:
+      context: ./micro2
+      dockerfile: ../Dockerfile
+      args:
+        - APP=micro2
+        - REVISION=${REVISION}
     links:
       - register
     environment:

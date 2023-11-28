@@ -3,7 +3,8 @@
 # Présentation
 
 ![speaker](./assets/images/bm.jpg)
-![badge](./assets/images/aws.png)
+![badge first-badge](./assets/images/aws_architect_associate.png)
+![badge second-badge](./assets/images/aws_developper_associate.png)
 ![company](./assets/images/logo-sfeir-blanc.png)
 
 ## Benopit MAIRE
