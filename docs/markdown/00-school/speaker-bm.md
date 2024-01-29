@@ -7,7 +7,7 @@
 ![badge second-badge](./assets/images/aws_developper_associate.png)
 ![company](./assets/images/logo-sfeir-blanc.png)
 
-## Benopit MAIRE
+## Benoît MAIRE
 
 ### SE Cloud Nantes
 
