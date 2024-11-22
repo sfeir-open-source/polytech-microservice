@@ -14,6 +14,7 @@ function rexSlides() {
     '01-intro/intro.md',
     '10-conceptions/11-conceptions.md',
     '20-architectures/21-architectures.md',
+    '20-architectures/22-mach.md',
     '30-conclusion/31-conclu.md',
   ];
 }

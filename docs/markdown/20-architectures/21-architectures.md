@@ -18,7 +18,7 @@ Notes:
 - Appels de fonctions/dépendances internes
 - Communication d'équipe plus intégrée
 
-##--##
+##==##
 
 <!-- .slide: class="with-code" -->
 
@@ -60,7 +60,7 @@ Notes:
 - Équipes de développement indépendantes
 - Communication entre équipes cruciale
 
-##--##
+##==##
 
 <!-- .slide: class="with-code" -->
 
@@ -101,7 +101,7 @@ Ensemble d'étapes distinctes indépendantes
 4. Préparation livraison
 5. Confirmation ?
 
-##--##
+##==##
 
 <!-- .slide: class="with-code" -->
 

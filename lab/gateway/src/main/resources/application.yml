@@ -24,7 +24,7 @@ eureka:
   client:
     registerWithEureka: true
     serviceUrl:
-      defaultZone: ${REGISTER_URI:http://localhost:8761/eureka}
+      defaultZone: ${REGISTER_URI:http://register/eureka}
 
 management:
   endpoints:

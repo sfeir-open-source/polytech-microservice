@@ -12,14 +12,11 @@
 
 Notes:
 
-Model: règles métier et gestion des données
-=> responsable de la logique métier
-Vue: Couche d'adaption du modèle pour un affichage compréhensible
-Controlleur: Interface entre la vue et le modèle
+Autres:
+- MVP (Modèle-Vue-Présentateur) : le Présentateur assume plus de responsabilités que le Contrôleur dans MVC.
+- MVVM (Modèle-Vue-VueModèle) : utilisé dans les frameworks modernes, avec un lien de données bidirectionnel entre Vue et VueModèle.
 
-Ex: Spring MVC
-
-##--##
+##==##
 
 <!-- .slide: class="with-code" -->
 
@@ -27,15 +24,15 @@ Ex: Spring MVC
 
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Duplicatat de code réduit
 
-![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Testabilité
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Flexibilité au niveau del'interface
 
-![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Séparation des responsabilités
+![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Séparation des responsabilités & Développement parallèle
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Le métier peut-être perdu au milieu de l'ensemble
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Risque de "fat controllers"
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Couplage trop fort potentiel
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Couplage fort potentiellement
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Adaptation à la complexité de l'Interface utilisateur
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Difficulté de test unitaire & attention au refactoring en raison d'une rigidité trop forte au niveau des composants
 
 ##==##
 
@@ -53,7 +50,7 @@ Notes:
 
 => Vision modulaire tournant autour d'un noyau métier
 
-##--##
+##==##
 
 <!-- .slide: class="full-center" -->
 
@@ -61,7 +58,7 @@ Notes:
 
 ![h-800](./assets/images/hexa-2.png)
 
-##--##
+##==##
 
 <!-- .slide: class="with-code-bg-dark" -->
 
@@ -117,7 +114,7 @@ public interface ProduitRepository {
 ```
 
 
-##--##
+##==##
 
 <!-- .slide: class="with-code" -->
 
@@ -145,7 +142,7 @@ public interface ProduitRepository {
 
 ![h-800](./assets/images/ddd.svg)
 
-##--##
+##==##
 
 <!-- .slide: class="with-code" -->
 

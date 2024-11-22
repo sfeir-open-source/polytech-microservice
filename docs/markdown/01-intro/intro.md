@@ -1,6 +1,6 @@
 <!-- .slide: class="transition-bg-green-2" -->
 
-# REX
+# Retour d'Expérience
 
 ##==##
 
@@ -8,28 +8,11 @@
 
 # Sommaire
 
-<br>
-<br>
+<br><br>
 
+![full-center h-200](assets/images/conception-vs-archi.png)
 
-## Conceptions logiciels
-
--   MVC
--   Hexagonale
--   DDD
-
-##--##
-
-# 
-
-<br>
-
-<br>
-<br>
-
-## Architectures logiciels
-<!-- .element: class="mt-20" -->
-
--   Monobloc
--   Microservice
--   Pipeline ou messaging asynchrone
+Notes: 
+Intérieur d'une application vs la vision externe, plus globale
+3 conceptions
+3 architectures

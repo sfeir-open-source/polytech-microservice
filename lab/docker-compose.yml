@@ -1,6 +1,4 @@
 ---
-version: "3.8"
-
 networks:
   micro-network:
     driver: bridge
@@ -13,7 +11,7 @@ services:
       dockerfile: ../Dockerfile
       args:
         - APP=gateway
-        - REVISION
+        # - REVISION=${REVISION}
     restart: always
     ports:
       - 9090:9090
@@ -35,7 +33,7 @@ services:
       dockerfile: ../Dockerfile
       args:
         - APP=register
-        - REVISION=${REVISION}
+        # - REVISION=${REVISION}
     ports:
       - "0.0.0.0:8761:8761"
     restart: always
@@ -51,7 +49,7 @@ services:
       dockerfile: ../Dockerfile
       args:
         - APP=micro1
-        - REVISION=${REVISION}
+        # - REVISION=${REVISION}
     links:
       - register
     environment:
@@ -67,7 +65,7 @@ services:
       dockerfile: ../Dockerfile
       args:
         - APP=micro1
-        - REVISION=${REVISION}
+        # - REVISION=${REVISION}
     links:
       - register
     environment:
@@ -84,7 +82,7 @@ services:
       dockerfile: ../Dockerfile
       args:
         - APP=micro2
-        - REVISION=${REVISION}
+        # - REVISION=${REVISION}
     links:
       - register
     environment:
