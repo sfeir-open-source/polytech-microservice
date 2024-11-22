@@ -1352,10 +1352,10 @@ setprototypeof@1.2.0:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
-sfeir-school-theme@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/sfeir-school-theme/-/sfeir-school-theme-3.0.0.tgz#292e310353c567eac3a17caca194e296c91d7b4c"
-  integrity sha512-1TsS4V9l2Nf074QvMngNQWceMXGfI6lTnOz2i71FLyS4Kr8gBAVUPSI7AXAHoNxRLG0jJ8ggtFD7BO1FFK3+GA==
+sfeir-school-theme@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/sfeir-school-theme/-/sfeir-school-theme-3.2.0.tgz#0ce2002782989c86099650500ac1cfd893df34cd"
+  integrity sha512-I8E3JHsGYBlEn3r0c0MC01cInUUKX6ptFxe2ZQPYr/6GfXR/trxLLwxA1P3W8EFTa8mcq21G9cOP121xjEcBKQ==
 
 shelljs@^0.8.5:
   version "0.8.5"
