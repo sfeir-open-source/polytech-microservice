@@ -162,8 +162,6 @@ public interface ProduitRepository {
 
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Conception peu répandue
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Peu évolutif
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Difficile en plein Run
 
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Le métier doit être correctement communiqué et interprété
-
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Coût

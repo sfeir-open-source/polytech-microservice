@@ -15,7 +15,14 @@ function rexSlides() {
     '10-conceptions/11-conceptions.md',
     '20-architectures/21-architectures.md',
     '20-architectures/22-mach.md',
+    '20-architectures/23-authentication.md',
     '30-conclusion/31-conclu.md',
+  ];
+}
+
+function iaSlides() {
+  return [
+    '60-ai/ia.md'
   ];
 }
 
@@ -30,6 +37,8 @@ function formation() {
     ...rexSlides(), //
     ...breakSlide(), //
     ...casPratique(), //
+    ...breakSlide(), //
+    ...iaSlides(), //
   ].map((slidePath) => {
     return { path: slidePath };
   });

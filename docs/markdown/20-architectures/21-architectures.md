@@ -59,6 +59,7 @@ Notes:
 - Bien adapté aux grandes applications avec de nombreuses fonctionnalités
 - Équipes de développement indépendantes
 - Communication entre équipes cruciale
+- Stateless
 
 ##==##
 
@@ -77,8 +78,6 @@ Notes:
 ![sfeir-icons](plus-circle)<!-- .element: style="--icon-color:green;"  --> Favorable à la communication asynchrone
 
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Sécurité
-
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Gestion de processus "stateless"
 
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Recommendation d'avoir une plateforme CI aboutie
 
@@ -121,4 +120,4 @@ Ensemble d'étapes distinctes indépendantes
 
 ![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Attention à l'asynchrone
 
-![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Coût de communication
+![sfeir-icons](minus-circle)<!-- .element: style="--icon-color:red;"  --> Tracabilité de la chaîne complète

@@ -2,9 +2,10 @@
 
 # Présentation
 
-![speaker](./assets/images/bm.jpg)
-![badge first-badge](./assets/images/aws_architect_associate.png)
-![badge second-badge](./assets/images/aws_developper_associate.png)
+![speaker](./assets/images/bma.jpg)
+![badge first-badge](./assets/images/aws_developper_associate.png)
+![badge second-badge](./assets/images/gitlab.png)
+![badge third-badge](./assets/images/terraform.png)
 ![company](./assets/images/logo-sfeir-blanc.png)
 
 ## Benoît MAIRE
